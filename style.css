@@ -24,6 +24,8 @@ footer{
 }
 
 .logo{
+    width: 150px;
+    padding-left: 10px;
 }
 
 .menu{
@@ -33,7 +35,9 @@ footer{
     font-family: 'Quicksand', sans-serif;
     color: #3D3D3D;
     list-style: none;
-    margin-top: 10px;
+    margin-top: 15px;
+    z-index: 50;
+    
 
 }
 
@@ -48,42 +52,69 @@ footer{
     
 }    
 
-.lista-cont .submenu {
+.lista-cont li {
     padding-top: 10px; 
     left: 0;
     height: 30px;
     
     box-shadow: 0px 1.1px 0px 0px grey;
     
+    
 }
 
-.lista-cont .submenu:hover {
+.lista-cont li:hover {
     background-color: rgba(0,0,0,0.3);
     transition: all 0.3s;
+    
 }
 
 
 
+.idioma {
+    display: flex;
+    padding: 0;
+    margin-left: 420px;
+    margin-top: 1px;
+}
 
 
-.idioma{
+.idioma a{
     text-align: right;
     font-family: 'Quicksand', sans-serif;
     color: #3D3D3D;
     font-size: 10px;
-    margin-right: 70px;
-    margin-top: 12px;
+    display: block;
+    padding-top: 17px;
+    
+    
+    
+}
+
+
+
+
+
+.ipca {
+    width: 45px;
+    height: 45px;
+    margin: 0;
+    
+    
+    
 }
 
 .entrada {
     background: grey;
+    
 }
+
+
 
 .foto-biblio {
     position:absolute; 
-    width: 1920px;
-    bottom: 20%;
-    height: 500px;
+    width: 100%;
+    bottom: 50px;
+    
     z-index: -50;
 }
 
@@ -91,10 +122,12 @@ footer{
     margin-top: 0;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 70px;
+    
 }
 
 .insti {
     font-family: 'Quicksand', sans-serif;
+    margin-top: -30px;
 }
 .box1{
     background: blue;
