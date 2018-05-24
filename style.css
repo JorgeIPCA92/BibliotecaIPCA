@@ -1,16 +1,16 @@
-*{
+/**{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     box-sizing: border-box;
-}
+}*/
 
 body{
     margin: 0;
 }
 
 header{
-    position: absolute;
+    
     width: 100%;
-    background: red;
+    background: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: 60px;
@@ -29,12 +29,62 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #3D3D3D;
+    list-style: none;
+    margin-top: 10px;
+
 }
+
+.lista-cont {
+    list-style: none;
+    display: none;
+    background: white;
+    margin-top: 10px;
+    font-size: 13px;
+    
+    
+}    
+
+.lista-cont li {
+    padding-top: 10px;
+    
+    height: 30px;
+    
+}
+
+.lista-cont li:hover {
+    background: rgba(0,0,0,0.3)
+}
+
+.contactos:hover .lista-cont {
+    display: block;
+}
+
+
 
 .idioma{
     text-align: right;
+    font-family: 'Quicksand', sans-serif;
+    color: #3D3D3D;
+    font-size: 10px;
+    margin-right: 70px;
+    margin-top: 12px;
 }
 
+.entrada {
+    background: grey;
+}
+
+.bem-vindo {
+    margin-top: 0;
+    font-family: 'Bebas Neue';
+    font-size: 70px;
+}
+
+.insti {
+    font-family: 'Quicksand', sans-serif;
+}
 .box1{
     background: blue;
     text-align: center;
