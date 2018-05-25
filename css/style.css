@@ -5,16 +5,18 @@
 
 body{
     margin: 0;
+    padding-top: 60px;
 }
 
 header{
-    
+    position: fixed;
     width: 100%;
     background: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: 60px;
     z-index: 200;
+    top: 0;
 }
 
 footer{
@@ -26,6 +28,7 @@ footer{
 .logo{
     width: 150px;
     padding-left: 10px;
+    margin-top: 5px;
 }
 
 .menu{
@@ -35,10 +38,14 @@ footer{
     font-family: 'Quicksand', sans-serif;
     color: #3D3D3D;
     list-style: none;
-    margin-top: 15px;
+    margin-top: 20px;
     z-index: 50;
-    
+}
 
+.icon-down-open {
+    margin-left: 3px;
+    
+    
 }
 
 .lista-cont {
@@ -47,33 +54,26 @@ footer{
     background: white;
     margin-top: 10px;
     font-size: 13px;
-    padding: 0;
-    
-    
+    padding: 0;   
 }    
 
 .lista-cont li {
     padding-top: 10px; 
     left: 0;
     height: 30px;
-    
-    box-shadow: 0px 1.1px 0px 0px grey;
-    
-    
+    box-shadow: 0px 1.1px 0px 0px grey;  
 }
 
 .lista-cont li:hover {
     background-color: rgba(0,0,0,0.3);
-    transition: all 0.3s;
-    
+    transition: all 0.3s;  
 }
-
 
 
 .idioma {
     display: flex;
     padding: 0;
-    margin-left: 420px;
+    margin-left: 405px;
     margin-top: 1px;
 }
 
@@ -82,53 +82,66 @@ footer{
     text-align: right;
     font-family: 'Quicksand', sans-serif;
     color: #3D3D3D;
-    font-size: 10px;
+    font-size: 13px;
     display: block;
-    padding-top: 17px;
-    
-    
-    
+    padding-top: 18.8px;   
 }
-
-
-
 
 
 .ipca {
-    width: 45px;
-    height: 45px;
-    margin: 0;
-    
-    
-    
+    width: 50px;
+    height: 50px;
+    margin: 0;   
+}
+
+.fondoen {
+  position: fixed;
+    width: 1250px;
+  height: 400px;
+  background-color: RGBA(100,100,100,0.8);
+    z-index: -2;
+    transform: skew(-30deg);
+    margin-left: -400px;
 }
 
 .entrada {
-    background: grey;
     
+    height: 210px;
+    padding-top: 150px;
 }
 
 
 
 .foto-biblio {
+    display: block;
     position:absolute; 
     width: 100%;
     bottom: 50px;
-    
-    z-index: -50;
+    z-index: -50;  
 }
 
 .bem-vindo {
+    margin-left: -90px;
+    margin-bottom: 0;
     margin-top: 0;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 70px;
-    
+    font-family: "Bebas Neue";
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+    width: 1000px;
+    height: 100px;
 }
 
 .insti {
     font-family: 'Quicksand', sans-serif;
-    margin-top: -30px;
+    color: white;
+    margin-left: 120px;
+    font-size: 25px;
 }
+
 .box1{
     background: blue;
     text-align: center;
