@@ -223,13 +223,48 @@ header{
 }
 
 .contactanos {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 15px;
     color:white;
     padding-left: 30px;
     padding-top:30px;
     background: grey;
     bottom: 0;
     width: 100%;
-    height: 230px;
+    height: 210px;
+}
+
+.contacta-footer {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}
+
+.info-footer {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px; 
+}
+
+.fa {
+    font-size: 50px;
+    padding-top: 4px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: grey;
+    background: white;
+    border-radius: 16%;
+    
+}    
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.copyright {
+    font-size: 10px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: sans-serif;
 }
