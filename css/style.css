@@ -107,8 +107,8 @@ header{
 
 .foto-biblio {
     display: block;
-    position:absolute; 
-    width: 100%;
+    position:fixed; 
+    width: 2000px;
     bottom: 50px;
     top: 0;
     z-index: -50;
@@ -149,6 +149,7 @@ header{
     height: 400px;
     z-index: 250;
     padding-top:10px;
+    color: #333132;
 }
 
 .box2{
@@ -161,6 +162,7 @@ header{
     height: 500px;
     z-index: 250;
     padding-top: 12px;
+    color: #333132;
 }
 
 .iconos1{
@@ -226,10 +228,25 @@ header{
     color:white;
     padding-left: 30px;
     padding-top:30px;
+    padding-right: 30px;
     background: grey;
     bottom: 0;
-    width: 100%;
-    height: 210px;
+    width: 97%;
+    height: 220px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.linea {
+    background: #EDC457;
+    width: 80px;
+    height: 2px;
+}
+
+.linea2 {
+    background-color: lightgray;
+    width: 547px;
+    height: 1px;
 }
 
 .contacta-footer {
@@ -238,7 +255,7 @@ header{
 }
 
 .info-footer {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     font-size: 13px; 
 }
 
@@ -255,11 +272,26 @@ header{
     color: grey;
     background: white;
     border-radius: 16%;
-    
+    grid-column-start: 3;
+    grid-row-start: 1; 
 }    
 
 .fa:hover {
     opacity: 0.7;
+}
+
+.redes {
+    grid-column-start: 3;
+    justify-self: end;
+    text-align: right;
+}
+
+.tel {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    grid-column-start: 2;
+    text-align: right;
+    padding-top: 35px;
 }
 
 .copyright {
@@ -267,4 +299,75 @@ header{
     text-align: center;
     padding-top: 40px;
     font-family: sans-serif;
+    grid-column-start: 2;
+}
+
+@media all and (max-width: 959px) {
+    .bem-vindo {
+         margin-left: -90px;
+         margin-bottom: 0;
+         margin-top: 0;
+         font-family: "Bebas Neue";
+         src: url(FONTS/BebasNeue.otf);
+         font-size: 70px;
+         color: white;
+         text-align: center;
+         border: 3px;
+         border-style: solid;
+         width: 900px;
+         height: 85px;
+         padding: 18px 0px 10px 0px;
+    }
+    
+    .insti {
+        font-family: 'Quicksand', sans-serif;
+        color: white;
+        margin-left: 120px;
+        font-size: 20px;
+    }
+    
+    .fondoen {
+        position: absolute;
+        width: 1250px;
+        height: 400px;
+        background-color: RGBA(100,100,100,0.8);
+        z-index: -2;
+        transform: skew(-30deg);
+        margin-left: -510px;
+}
+}
+
+@media all and (max-width: 859px) {
+    .bem-vindo {
+         margin-left: -50px;
+         margin-bottom: 0;
+         margin-top: 0;
+         font-family: "Bebas Neue";
+         src: url(FONTS/BebasNeue.otf);
+         font-size: 60px;
+         color: white;
+         text-align: center;
+         border: 3px;
+         border-style: solid;
+         width: 700px;
+         height: 75px;
+         padding: 18px 0px 10px 0px;
+    }
+    
+    .insti {
+        font-family: 'Quicksand', sans-serif;
+        color: white;
+        margin-left: 120px;
+        font-size: 15px;
+    }
+    
+    .fondoen {
+        position: absolute;
+        width: 1250px;
+        height: 400px;
+        background-color: RGBA(100,100,100,0.8);
+        z-index: -2;
+        transform: skew(-30deg);
+        margin-left: -665px;
+    } 
 }
