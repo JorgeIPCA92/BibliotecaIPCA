@@ -302,6 +302,57 @@ header{
     grid-column-start: 2;
 }
 
+.menu2 {
+    display:none;
+    position: fixed;
+    margin-top: 61px;
+    height: 100%;
+    background-color: white;
+    width: 50%;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 0;
+    padding-right: 20px;
+    right: 0px;
+    transform: translate(100%);
+    transition: all 1.5s;
+}
+
+.real-menu {
+    transform: translate(0);
+}
+
+.menu21 {
+    list-style: none;
+}
+
+.menu21 li{
+    height: 40px;
+    padding-top: 20px;
+    text-align: right;
+    border-bottom: 1px solid;
+}
+
+.lista-cont2 {
+    list-style: none;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.lista-cont2 li {
+    height: 20px;
+}
+
+.bottom-menu {
+    display: none;
+    width: 30px;
+    position: fixed;
+    right: 0;
+    padding-right: 20px;
+    padding-top: 10px;
+    z-index: 200;
+
+}
+
 @media all and (max-width: 959px) {
     .bem-vindo {
          margin-left: -90px;
@@ -371,3 +422,181 @@ header{
         margin-left: -665px;
     } 
 }
+
+@media all and (max-width: 579px) {
+  
+    
+     .bem-vindo {
+         margin-left: -10px;
+         margin-bottom: 0;
+         margin-top: 0;
+         font-family: "Bebas Neue";
+         src: url(FONTS/BebasNeue.otf);
+         font-size: 50px;
+         color: white;
+         text-align: center;
+         border: 3px;
+         border-style: solid;
+         width: 500px;
+         height: 65px;
+         padding: 18px 0px 10px 0px;
+    }
+    
+    .insti {
+        font-family: 'Quicksand', sans-serif;
+        color: white;
+        margin-left: 80px;
+        font-size: 15px;
+    }
+    
+    .fondoen {
+        position: absolute;
+        width: 1250px;
+        height: 400px;
+        background-color: RGBA(100,100,100,0.8);
+        z-index: -2;
+        transform: skew(-30deg);
+        margin-left: -799px;
+    } 
+    
+  .CAT {
+    margin-left: -0px;
+}
+
+  .NOV {
+    margin-right: -0px;
+}
+    
+    .mapa {
+    width: 500px;
+    height:auto;      
+}
+  
+    .text-amarillo {
+  display: flex;
+  padding: 0;
+  width: 495px;
+  margin: auto;
+}
+    
+  .menu2 {
+    display:block;
+    
+}
+    
+  .menu {
+        display: none;
+    }
+ 
+  .idioma {
+        display: none;
+    }  
+    
+  .bottom-menu {
+        display: block;  
+    }
+     
+    header {
+        box-shadow: 0.5px 0.5px 1px grey;
+    }
+    
+}
+   
+@media all and (max-width: 400px) {
+    
+     .bem-vindo {
+         margin-left: -10px;
+         margin-bottom: 0;
+         margin-top: 0;
+         font-family: "Bebas Neue";
+         src: url(FONTS/BebasNeue.otf);
+         font-size: 35px;
+         color: white;
+         text-align: center;
+         border: 3px;
+         border-style: solid;
+         width: 380px;
+         height: 45px;
+         padding: 18px 0px 10px 0px;
+    }
+    
+    .insti {
+        font-family: 'Quicksand', sans-serif;
+        color: white;
+        margin-left: 40px;
+        font-size: 12px;
+    }
+    
+    .fondoen {
+        position: absolute;
+        width: 1250px;
+        height: 400px;
+        background-color: RGBA(100,100,100,0.8);
+        z-index: -2;
+        transform: skew(-30deg);
+        margin-left: -930px;
+    } 
+    
+    .entrada {
+    height: 110px;
+    padding-top: 95px;
+    padding-bottom: 55px;
+}
+    
+    .box1 {
+        font-size: 15px;
+        height: 300px;
+    }
+    
+    .box2 {
+        font-size: 15px;
+        height: 300px;
+    }
+    
+    .catalogo {
+    height: 120px;
+    width: 120px; 
+}
+
+   .novidades {
+    height: 120px;
+    width: 120px;
+}
+
+    .iconos1{
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+    color: #3D3D3D;
+    font-weight: 100;
+    font-size: 15px;
+    padding-top:0;
+    
+}
+ 
+    .mapa {
+        width: 350px;
+        
+    }
+    
+    .text-amarillo {
+       display: flex;
+       padding: 0;
+       width: 345px;
+       margin: auto; 
+    }
+    
+    .biblio {
+        font-size: 11px;
+    }
+    
+    .cuadrado {
+        height: 13px;
+        width: 13px;
+    }
+    
+}  
+    
+    
