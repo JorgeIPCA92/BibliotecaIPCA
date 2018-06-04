@@ -651,4 +651,22 @@ header{
     
 }  
     
+ 
+
+
+/* PAGE 2 
+============================================= */
+
+.cuerpo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bloque1 {
+    background-color: #EDC457;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+    
     
