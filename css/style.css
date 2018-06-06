@@ -667,6 +667,21 @@ header{
     width: 100%;
     padding-top: 60px;
     padding-bottom: 50px;
+    font-family: "Bebas Neue";
+    src: url(FONTS/BebasNeue.otf);
+    font-size: 60px;
+    text-align: center;
+}
+
+.text-r {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    padding: 0 20%;
+    text-align: justify;
+}
+
+.bloque2 {
+    background-color: lightgrey;
 }
     
     
