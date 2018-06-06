@@ -51,13 +51,32 @@
     <div class="cuerpo">
        <div class="bloque1">
           <p class="REC">RECLAMAÇÕES</p>
-          <divclass="text-r" class="text-r">
+           <div class=linea_r></div>
+          <div class="text-r" class="text-r">
             <p>A sua opinião é importante para nós. Contribuirá para melhorar a qualidade do serviço prestado.</p><p>Utilize esta ferramenta caso pretenda deixar uma sugestão, reclamação, expor uma ideia e/ou iniciativas que gostaria de ver concretizadas.</p><p>A Biblioteca aceita sugestões para a aquisição de publicações. Essas sugestões serão analisadas, tendo em conta o respetivo interesse científico e das disciplinas lecionadas no IPCA.</p><p>Obrigado pelo Contributo.</p>  
           </div>
        </div>
        <div class="bloque2">
-          <p>FORMULARIO</p> 
-       </div>
+
+        <div class="container">
+  <form action="/action_page.php">
+    <label for="fname">NOME COMPLETO</label>
+    <input type="text" id="fname" name="firstname">
+
+    <label for="lname">EMAIL</label>
+    <input type="text" id="lname" name="email">
+
+    <label for="country">ASUNTO</label>
+       <input type="text" id="lname" name="lastname">
+
+    <label for="subject">MENSAGEM</label>
+    <textarea id="subject" name="subject"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+           
+        </div>
     </div>
     <footer class="contactanos">
         <div class="textocontacta">

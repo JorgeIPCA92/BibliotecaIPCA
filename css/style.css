@@ -433,6 +433,10 @@ header{
 }
 
 @media all and (max-width: 765px) {
+    .cuerpo {
+        grid-template-columns: 1fr;
+    }
+    
     .contactanos {
         display: block;
         box-sizing: border-box;
@@ -650,8 +654,6 @@ header{
     }
     
 }  
-    
- 
 
 
 /* PAGE 2 
@@ -662,10 +664,13 @@ header{
     grid-template-columns: 1fr 1fr;
 }
 
+.REC {
+    margin: 30px 0 10px 0;
+}
+
 .bloque1 {
     background-color: #EDC457;
     width: 100%;
-    padding-top: 60px;
     padding-bottom: 50px;
     font-family: "Bebas Neue";
     src: url(FONTS/BebasNeue.otf);
@@ -673,15 +678,77 @@ header{
     text-align: center;
 }
 
+.linea_r {
+    height: 2px;
+    width: 150px;
+    background-color: black;
+    margin: 0 auto;
+}
+
 .text-r {
     font-family: 'Quicksand', sans-serif;
-    font-size: 15px;
-    padding: 0 20%;
+    font-size: 13px;
+    padding: 60px 20% 0 20%;
     text-align: justify;
 }
 
 .bloque2 {
     background-color: lightgrey;
+    padding-top: 40px;
+    width: 100%;
 }
     
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #EDC457;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: orange;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    margin: 30px;
+}
+
+label[for="fname"] {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+}
+
+label[for="lname"] {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+}
+
+label[for="country"] {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+}
+
+label[for="subject"] {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+}
+
+label[for="submit"] {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+}
+
     
