@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }*/
 
+
 body{
     margin: 0;
     padding-top: 60px;
@@ -751,4 +752,7 @@ label[for="submit"] {
     font-size: 12px;
 }
 
-    
+a {
+ text-decoration: none;
+ color: #3D3D3D;
+} 
