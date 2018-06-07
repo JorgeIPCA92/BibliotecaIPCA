@@ -661,8 +661,9 @@ header{
 ============================================= */
 
 .cuerpo {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .REC {
@@ -671,12 +672,16 @@ header{
 
 .bloque1 {
     background-color: #EDC457;
-    width: 100%;
+    width: 300px;
     padding-bottom: 50px;
     font-family: "Bebas Neue";
     src: url(FONTS/BebasNeue.otf);
     font-size: 60px;
     text-align: center;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: auto;
+    
 }
 
 .linea_r {
@@ -696,7 +701,11 @@ header{
 .bloque2 {
     background-color: lightgrey;
     padding-top: 40px;
-    width: 100%;
+    width: 300px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: auto;
+    
 }
     
 input[type=text], select, textarea {
