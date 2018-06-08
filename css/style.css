@@ -52,7 +52,7 @@ header{
     background: white;
     margin-top: 10px;
     font-size: 13px;
-    padding: 0;   
+    padding: 0;  
 }    
 
 .lista-cont li {
@@ -346,11 +346,14 @@ header{
     list-style: none;
     font-size: 14px;
     padding-top: 20px;
+    background: white;
+    position: relative;
 }
 
 .lista-cont2 li {
     height: 20px;
 }
+
 
 .bottom-menu {
     display: none;
