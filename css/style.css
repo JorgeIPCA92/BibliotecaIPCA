@@ -348,6 +348,7 @@ header{
     padding-top: 20px;
     background: white;
     position: relative;
+    display: none;
 }
 
 .lista-cont2 li {
